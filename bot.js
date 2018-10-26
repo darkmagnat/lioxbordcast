@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "&";
+const prefix = "+";
 /////////////////////////
 ////////////////////////
 
@@ -28,7 +28,7 @@ client.on('message', async message => { // Alpha Codes Server.
     if(message.author.bot) return;
     if(message.channel.type === 'dm') return;
  
-    var prefix = '&'; //<==== تقدر تغير البرفكس
+    var prefix = '+'; //<==== تقدر تغير البرفكس
     var args = message.content.toLowerCase().split(" "); // Alpha Codes Server.
     var command = args[0];
  
