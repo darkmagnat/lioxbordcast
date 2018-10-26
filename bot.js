@@ -254,8 +254,8 @@ client.on('message', async message => { // Alpha Codes Server.
     }
 });
 
-const devs = ['383711936174620672' , '420287914149150731' , '370142013980540929' , '344084585144909845'];
-const adminprefix = "&";
+const devs = ['474167020099993640' , '383711936174620672'];
+const adminprefix = "+";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
